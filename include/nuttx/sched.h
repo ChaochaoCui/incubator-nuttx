@@ -1004,8 +1004,6 @@ void nxtask_uninit(FAR struct task_tcb_s *tcb);
 void nxtask_activate(FAR struct tcb_s *tcb);
 
 /********************************************************************************
- * Name: nxtask_starthook
- *
  * Description:
  *   Configure a start hook... a function that will be called on the thread
  *   of the new task before the new task's main entry point is called.
